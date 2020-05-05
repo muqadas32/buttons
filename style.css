@@ -4,25 +4,28 @@ button{
     font-family: sans-serif;
     margin: 0.5;
 }
-
-
 #btn-cart{
     background-color:tomato;
     color: white;
     padding: 1em 3em;
-
     border:none
-
 }
+#btn-cart:hover{
+    background-color: rgba(255, 99, 71, 0.856);
+}
+
 #btn-play{
     background-color: yellow;
-    color: white;
+    color: #2a61fb;
     border: 3px solid rgb(13, 132, 206);
      font-family: 'Gugi' sans-serif;
     padding: 10px 30px;
     font-size: 1.5em;
 }
-
+#btn-play:hover{
+  color : yellow;
+   background-color: #2a61fb;   
+}
 #login-btn{
 border-radius: 20px;
 border: none;
@@ -38,6 +41,10 @@ padding: 10px 20px;
     border: 3px solid #6749ea;
     border-radius: 7px;
 }
+#signup-btn:hover{
+    background-color: #6749ea;
+    color: white;
+}
 #subscribe-btn{
     background-image:linear-gradient(to top,#f5a332,#fac733) ;
     padding: 12px 2em;
@@ -45,6 +52,10 @@ padding: 10px 20px;
     border-radius: 5px;
     color: white;
     text-shadow: 1px 1px 2px grey;
+}
+#subscribe-btn:hover{
+    background-color: #f5a332; 
+    background-image: none;
 }
 #twitter-btn{
 
